@@ -5,11 +5,11 @@
 variables:
   prod_warehouse_id:
     description: define prod warehouse id
-    default: 5834a7035a11c525
+    default: a91a307e9840435d
 
   catalog_name:
     description: "Catalog name for the pipeline"
-    default: daiwt_gourmet
+    default: main_hec_nov_2025
 
   schema_name:
     description: "Schema name for the pipeline"
