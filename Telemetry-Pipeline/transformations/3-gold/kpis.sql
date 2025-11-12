@@ -11,7 +11,7 @@ FROM
     silver_telemetry_hr;
 
 
-CREATE OR REFRESH MATERIALIZED VIEW silver_zones as 
+--CREATE OR REFRESH MATERIALIZED VIEW silver_zones as 
 /* create a materialized view that categorizes heart rate data from bronze_telemetry_hr into four zones 
 (Resting, Normal/Light, Cardio, Peak) using a CASE statement, and then calculates the total count and the percentage of records falling into each zone, as shown in this zoning example:
 
