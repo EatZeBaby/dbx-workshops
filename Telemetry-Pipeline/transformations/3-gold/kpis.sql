@@ -6,9 +6,7 @@
 CREATE OR REFRESH MATERIALIZED VIEW gold_telemetry_agg_hr AS
 SELECT *
     -- compute daily avg, min, max of bpms
-     
-FROM
-    silver_telemetry_hr;
+FROM silver_telemetry_hr;
 
 
 --CREATE OR REFRESH MATERIALIZED VIEW silver_zones as 
@@ -20,3 +18,4 @@ bpm < 60 | Resting
 60 <= bpm <= 99 | Normal/Light 
 100 <= bpm <= 140 | Cardio 
 bpm > 140 Peak  */
+;
